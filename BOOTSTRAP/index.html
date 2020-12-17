@@ -1,1 +1,446 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS --->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+
+    <title>bootstrap</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- basics -->
+        <h1> About Bootstrap </h1>
+        <p>
+            Lorem <mark>ipsum dolor sit amet consectetur</mark> adipisicing elit. Dolore quasi fugit pariatur
+            consectetur nam
+            obcaecati? Quibusdam illo corrupti cupiditate aut, velit obcaecati, accusantium<u> reiciendis eum quo
+                deleniti</u>
+            beatae repellendus facere.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, <mark>consectetur</mark> adipisicing elit. Dolore quasi fugit pariatur
+            consectetur<del>
+                nam obcaecati? Quibusdam illo corrupti</del> cupiditate aut, velit obcaecati, accusantium<u> reiciendis
+                eum quo
+                deleniti</u> beatae repellendus facere.
+        </p>
+        <hr>
+    
+    <!-- text orientaion -->
+    <div class="text-left">
+        <p> I will start from left</p>
+    </div>
+    <div class="text-center">
+        <p>I will start from center</p>
+    </div>
+    <div class="text-right">
+        <p>I will start from right</p>
+    </div>
+    <div class="clearfix"></div>
+
+    <!-- use this to clear all the mess around -->
+    <div class="clearfix"></div>
+    <hr>
+
+    <!-- blockquote  -->
+    <blockquote class="blockquote">
+        <p>It's not difficult, It's new!</p>
+        <footer class="blockquote-footer">Said by <cite title="nandini">NG</cite></footer>
+    </blockquote>
+    <hr>
+    <blockquote class="blockquote text-center">
+        <p>If hardwork ain't enough, work hrader!</p>
+        <footer class="blockquote-footer">Said by <cite title="nandini">NG</cite></footer>
+    </blockquote>
+    <hr>
+    <blockquote class="blockquote text-right">
+        <p>000! What a fun to code it out!</p>
+        <footer class="blockquote-footer">Said by <cite title="nandini">NG</cite></footer>
+    </blockquote>
+    <hr>
+
+    <!-- list -->
+    <ul class="list-unstyled">
+        <li>wayne arooney</li>
+        <li>Bruno</li>
+        <li>marcus</li>
+        <li>gigsy</li>
+    </ul>
+    <ul class="list-inline">
+        <li class="list-inline-item">wayne arooney</li>
+        <li class="list-inline-item">Bruno</li>
+        <li class="list-inline-item">marcus</li>
+        <li class="list-inline-item">gigsy</li>
+    </ul>
+    <hr>
+
+    <!-- code blogs -->
+    <code>
+        &lt; h1 &gt;
+        <!-- <h1> this means a h1 tag -->
+        <p>
+            to copy press cmd+c on your laptop
+            <kbd>
+                <kbd>cmd</kbd>
+                <kmd>+</kmd>
+                <kmd>c</kmd>
+            </kbd>
+        </p>
+    </code>
+    <hr>
+    <!-- pre tag keeps the spaces as it  -->
+    <pre><code>
+            &lt; h1 &gt;
+            <p>to copy press cmd+c on your laptop
+                <kbd>cmd+c</kbd>
+                <kbd>cmd+v</kbd>
+                <kbd>cmd+q</kbd>
+            </p>
+        </code></pre>
+    <hr />
+    </div>
+</div>
+
+
+    <!-- contextual classes -->
+    <div>
+        <p class="container">I am primary context</p>
+    </div>
+    <div>
+        <p class="container">I am warning context</p>
+    </div>
+    <div>
+        <p class="container">I am success context</p>
+    </div>
+    <div>
+        <p class="container">I am muted context</p>
+    </div>
+    <div>
+        <p class="container">I am info context</p>
+    </div>
+    <div>
+        <p class="container">I am danger context</p>
+    </div>
+    <hr>
+
+    <div class="container">
+        <div class="bg-primary">I am primary context</div>
+        <div class="bg-warning">I am warning context</div>
+        <div class="bg-success">I am success context</div>
+        <div class="bg-info">I am muted context</div>
+        <div class="bg-muted">I am info context</div>
+        <div class="bg-danger">I am danger context</div>
+        <hr>
+        <p class="text-primary">I am primary context</p>
+        <p class="text-warning">I am warning context</p>
+        <p class="text-success">I am success context</p>
+        <p class="text-muted">I am muted context</p>
+        <p class="text-danger">I am info context</p>
+        <p class="text-info">I am danger context</p>
+        <hr>
+    </div>
+    <hr>
+
+    <div class="container">
+        <div class="bg-primary text-center"> I am primary context</div>
+        <div class="bg-secondary text-center"> I am warning context</div>
+        <div class="bg-success text-center"> I am success context</div>
+        <div class="bg-warning text-center"> I am muted context</div>
+        <div class="bg-info text-center"> I am info context</div>
+        <div class="bg-danger text-sm-center"> I am danger context</div>
+        <hr>
+    </div>
+    <hr>
+
+    <div class="container">
+        <span class="border border-primary rounded">I am primary context</span></br>
+        <span class="border border-secondary rounded-top">I am secondary context</span></br>
+        <span class="border border-success rounded-right">I am success context</span></br>
+        <span class="border border-danger rounded-circle">I am danger context</span></br>
+        <span class="border border-warning rounded-bottom">I am warning context</span></br>
+        <span class="border border-info rounded-left">I am info context</span></br>
+        <span class="border border-light rounded-pill">I am light context</span></br>
+        <span class="border border-dark rounded-0">I am dark context</span></br>
+        <span class="border border-white">I am white context</span></br>
+    </div>
+    <hr>
+
+    <!-- button  -->
+    <div class="container">
+        <!-- not a part of form -->
+        <button class="btn btn-primary">Button</button>
+        <!-- menu and redirection -->
+        <a class="btn btn-primary" href="#" role="button">Link Button</a>
+        <!-- forms -->
+        <input class="btn btn-primary" type="button" name="input-Button" value="Input">
+        <input class="btn btn-primary" type="submit" name="input-Button" value="Reset">
+        <input class="btn btn-primary" type="reset" name="input-Button" value="Reset">
+    </div>
+    <hr>
+
+    <!-- button with context  -->
+    <div class="container">
+        <h4>button with context</h4>
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-muted">Muted</button>
+        <button class="btn btn-link">Link</button>
+        <hr>
+        <button class="btn btn-dark">Dark</button>
+        <button class="btn btn-danger disabled">Danger</button>
+    </div>
+    <hr>
+
+    <!-- button outline -->
+    <div class="container">
+        <h4>BUTTON OUTLINE</h4>
+        <button class="btn btn-outline-primary">Primary</button>
+        <button class="btn btn-outline-secondary">Secondary</button>
+        <button class="btn btn-outline-danger">Danger</button>
+        <button class="btn btn-outline-warning">Warning</button>
+        <button class="btn btn-outline-info">Info</button>
+        <button class="btn btn-outline-success">Success</button>
+        <button class="btn btn-outline-muted">Muted</button>
+        <hr>
+        <button class="btn btn-outline-dark">Dark</button>
+        <button class="btn btn-outline-danger disabled">Danger</button>
+    </div>
+    <hr>
+
+    <!-- button sizes -->
+    <div class="container">
+        <h4>Button sizes</h4>
+        <br>
+        <button class="btn btn-lg btn-outline-primary">Primary</button>
+        <button class="btn btn-md btn-outline-secondary">Secondary</button>
+        <button class="btn btn-xs btn-outline-danger">Danger</button>
+        <button class="btn btn-sm btn-outline-warning">Warning</button>
+        <button class="btn btn-lg btn-outline-info">Info</button>
+        <button class="btn btn-outline-success">Success</button>
+        <button class="btn btn-xs btn-outline-muted">Muted</button>
+        <button class="btn btn-sm btn-outline-dark">Dark</button>
+        <hr>
+    </div>
+    <hr>
+<div class="container">
+    <!-- now lets talk about forms -->
+    <form action="#" method="GET">
+        <div class="form-group">
+            <label for="username">
+                Please enter your username!
+                <input class="form-control" id="username" type="text" name="username" placeholder="John Doe">
+            </label>
+            <br>
+        </div>
+        <div class="form-group">
+            <label for="username">
+                Please enter your password!
+                <input class="form-control" id="password" type="password" name="password" placeholder="John Doe">
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="class-time">
+                when did you reach in class?
+                <select class="form-control" id="class-time">
+                    <option selected disabled>Please pick a time </option>
+                    <option>9.00PM</option>
+                    <option >8.50PM</option>
+                    <option>9.05PM</option>
+                    <option>Me ignornant!</option>
+                </select>
+            </label>
+        </div>
+            <div class="form-group form-check">
+                <input type="checkbox" id="rememberme" class="">
+                <label for="rememberme">Remember Me</label>
+            </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+    </form>
+
+    <!-- inline forms using the bootstrap  -->
+    <form class="form-inline">
+        <div class="form-group">
+            <label for="username">
+                Please enter your username!
+                <input class="form-control" id="username" type="text" name="username" placeholder="John Doe">
+            </label>
+            <br>
+        </div>
+        <div class="form-group">
+            <label for="username">
+                Please enter your password!
+                <input class="form-control" id="password" type="password" name="password" placeholder="John Doe">
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <!-- lets talk about table  -->
+    <hr>
+    <table class="table table-striped ">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Second</th>
+                <th scope="col">Third</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row"></th>
+                <td><span>@nandini</span></td>
+                <td></td>
+                <td>1</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <table class="table-danger">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Second</th>
+                <th scope="col">Third</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="bg-primary">
+                <th scope="row">1</th>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr class="bg-muted">
+                <th scope="row">2</th>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row"></th>
+                <td><span>@nandini</span></td>
+                <td></td>
+                <td>1</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <table class="table-hover">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Second</th>
+                <th scope="col">Third</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row"></th>
+                <td><span>@nandini</span></td>
+                <td></td>
+                <td>1</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <table class="table-sm table-hover table-borderless">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Second</th>
+                <th scope="col">Third</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row"></th>
+                <td><span>@nandini</span></td>
+                <td></td>
+                <td>1</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+ 
+
+<div class="container">
+
+    <!-- lets talk about lists  -->
+    <caption class="figure-caption"></caption>
+    <ul class="list-group list-group-flush">
+
+
+    </ul>
+</div>
+
+
+
+
+    <div class="clearfix" style="background-color: transparent; height: 200px;"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
